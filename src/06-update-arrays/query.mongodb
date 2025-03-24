@@ -1,0 +1,3 @@
+use("utt_jrr_store")
+
+db.invento.find()

@@ -1,0 +1,13 @@
+use ("utt_jrr_store")
+
+db.products.insertOne({
+    _id: 1,
+    name: "Product 11",
+    price: 1000
+})
+
+db.products.insertOne({
+    _id: 2,
+    name: "Product 22",
+    price: 100
+})

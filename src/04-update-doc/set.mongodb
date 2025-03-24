@@ -1,0 +1,26 @@
+use ("utt_jrr_store")
+
+// db.products.updateOne(
+//     // query id
+//     {_id: 567}, 
+//     // cambio change = operador de cambio 
+//     {
+//         $set: {
+//             name: 'Change name fix'
+//         }
+//     }
+// )
+
+db.products.updateOne(
+    {_id: 2}, 
+    {
+        $set: {
+            name: 'Tshirt',
+            price: 890,
+            tags: ['S', 'M', 'L', 'XL']
+        }
+    }
+)
+
+// update nomina set nombre = 'Change name fix'
+// where id = 2;

@@ -1,0 +1,12 @@
+use ("utt_jrr_store")
+
+db.products.updateOne(
+    {_id: 
+        ObjectId("67d4e413c7475d3dbe6ff89e")
+    }, 
+    {
+        $inc: {
+            price: 97
+        }
+    }
+)
